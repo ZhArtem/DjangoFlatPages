@@ -1,0 +1,15 @@
+{% extends 'flatpages/default.html' %}
+
+{% block title %} {{ flatpage.title }} {% endblock title %}
+
+{% block content %}
+<h1>About Us</h1>
+{{ flatpage.content }}
+<br>
+{{ flatpage.content }}
+<p>Lorem <em><strong>ipsum</strong></em> dolor sit amet, <span
+        style="text-decoration: underline; color: #ff0000;">consectetur </span>adipisicing <span
+        style="color: #99cc00;">elit</span>. <br />Adipisci <strong><em>assumenda</em> </strong>commodi <span
+        style="background-color: #ccffcc;">dolores</span> error in natus necessitatibus officiis perspiciatis quia
+    rem,<br />temporibus voluptas! At, beatae vero.</p>
+{% endblock content %}
